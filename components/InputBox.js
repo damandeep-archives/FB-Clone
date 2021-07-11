@@ -78,12 +78,14 @@ function InputBox() {
     return (
         <div className='bg-white p-2 rounded-2xl shadow-md text-gray-500 font-medium mt-6'>
             <div className='flex space-x-4 p-4 items-center'>
-                <Image className="hidden rounded-full"
+               <div className='hidden md:inline'>
+      
+        <Image className="hidden rounded-full"
                 src={session.user.image}
                 width={40}
                 height={40}
                 layout="fixed"/>
-
+                   </div>
                 <form className='flex flex-1'>
                     <input
                    className='text-xs md:text-sm rounded-full h-12 bg-gray-100 flex-grow px-5 focus:outline-none' type="text" 
