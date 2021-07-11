@@ -103,6 +103,7 @@ function InputBox() {
                     </div>
 
                 )}
+                 <div onClick={sendPost} className='cursor-pointer sm:inline md:hidden'>Post</div>
             </div>
 
             <div className='flex justify-evenly
